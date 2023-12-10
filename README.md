@@ -14,24 +14,26 @@ Using the np.linalg.solve(), we can find the solutions.
 ### Step 4: 
 End the program
 ## Program:
-#Program to find the rank of a matrix.
+#Program to find the solution for the given linear equations.
 
 #Developed by: YENDLURI CHANDANA
 
-#RegisterNumber:23011258
+#RegisterNumber: 23011258
 
 import numpy as np
 
-A=[[1,2,3],[1,2,3]]
+a=[[5,-3,-10],[2,2,-3],[-3,-1,5]]
 
-b=np.linalg.matrix_rank(A)
+b=np.array([-9,4,-1])
 
-print(b)
+c=np.linalg.solve(a,b)
 
+print(c)
 
 
 ## Output:
-![image](https://github.com/23011258/-SOLUTION-TO-A-SYSTEM-OF-LINEAR-EQUATIONS/assets/139842204/980241f1-325b-407f-a1aa-0d4c4c5b1300)
+![Screenshot 2023-12-10 131309](https://github.com/23011258/-SOLUTION-TO-A-SYSTEM-OF-LINEAR-EQUATIONS/assets/139842204/450a3c9c-21e1-4fa9-857f-ff2d8ae85262)
+
 
 ## Result: 
 Thus the solutions for the linear equations are successfully solved using python program
